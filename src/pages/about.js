@@ -1,6 +1,7 @@
 // Import React
 import * as React from 'react'
-import Layout from './layout'
+import Layout from '../components/layout'
+import Seo from '../components/seo'
 
 // Define your component
 const AboutPage = () => {
@@ -21,7 +22,7 @@ const AboutPage = () => {
   For this tutorial you’ll only be adding titles to pages but you can also later add other metadata.
 
 */
-export const Head = () => <title>About Me</title>
+export const Head = () => <Seo title="About Me" />
 
 // Export your component
 export default AboutPage
